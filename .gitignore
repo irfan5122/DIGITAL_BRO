@@ -1,1 +1,29 @@
+# Android Studio
 .idea/
+*.iml
+
+# Gradle
+.gradle/
+**/.gradle/
+
+# Android build output
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local machine configuration
+local.properties
+
+# Java
+*.class
+target/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
